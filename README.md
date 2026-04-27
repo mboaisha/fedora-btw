@@ -40,6 +40,7 @@ I will limit the use of AI / LLMs as much as possible, be aware that I occassion
 - A second pair of eyes (e.g. proofreading scripts, expensive linter, etc)
 - As a [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) that talks back.
 - For studying (e.g. "I am practicing area XYZ for the RHCSA exam, can you give me a drill to reinforce the concepts I learned so far?")
+- For researching (e.g. "Here are bunch of docs, can you explain to me how I can do XYZ?")
 
 
 ## Credits, Appreciations, and Inspirations
