@@ -5,6 +5,10 @@ Resources for myself on using Fedora specifically and Linux in general
 
 Even though I use [Obsidian](https://obsidian.md/) for notetaking and as a knowledge base, my vault is a mess and it has bunch of "nuggets of wisdom" I collected over the years. With this repo, I seek to extract these bits of knowledge and put them in a tidy way here, essentially another way to keep myself accountable.
 
+## Index
+### Guides
+- [Post-Install "Nice-to-haves"](docs/post-install-guide.md)
+
 ## My devices
 
 In this repo, I will try my best to make the resources device-agnostic. To have an added context, I think it's best to add what devices are "in-scope" for these resources. 
