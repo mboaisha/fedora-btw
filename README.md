@@ -33,3 +33,18 @@ In my daily life, I have bunch of devices:
 - **Microsoft Surface**: Not sure which model but it's *old*, will add more details later
     - Served me faithfully for years.
     - I like the form factor.
+
+## AI Use Disclaimer
+I will limit the use of AI / LLMs as much as possible, be aware that I occassionally use Claude, Gemini and ChatGPT to do certain things such as:
+- Tedious tasks (e.g. formatting)
+- A second pair of eyes (e.g. proofreading scripts, expensive linter, etc)
+- As a [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) that talks back.
+- For studying (e.g. "I am practicing area XYZ for the RHCSA exam, can you give me a drill to reinforce the concepts I learned so far?")
+
+
+## Credits, Appreciations, and Inspirations
+- [tonybtw](https://www.youtube.com/@tony-btw): Main inspiration. Although his videos can be too fast for me, I can follow along. Learned a great deal of things.
+    - [Website](https://www.tonybtw.com/)
+    - [GitHub](https://github.com/tonybanters)
+- [Zirconium](https://github.com/zirconium-dev/zirconium): Great bootc image that has [Niri](https://github.com/niri-wm/niri) and [Dank Material Shell](https://github.com/AvengeMedia/DankMaterialShell). It doesn't get better than this. Solid community.
+- [valerie-tar-gz](https://github.com/valerie-tar-gz): For maintaining [Bazzirco](https://github.com/bazzirco/bazzirco), my daily driver.
