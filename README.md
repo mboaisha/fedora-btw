@@ -8,7 +8,7 @@ Even though I use [Obsidian](https://obsidian.md/) for notetaking and as a knowl
 ## Index
 ### Guides
 - [Post-Install "Nice-to-haves"](docs/post-install-guide.md)
-
+- [COPRs of Interest(docs/coprs-of-interest.md): 
 ## My devices
 
 In this repo, I will try my best to make the resources device-agnostic. To have an added context, I think it's best to add what devices are "in-scope" for these resources. 
