@@ -34,7 +34,7 @@ I also had two warnings:
       ! Couldn't find shellcheck. Shell script linting will not work
 ```
 
-To resolve them, you will have to install the `shellcheck` package and `marked` packages.
+To resolve them, you will have to install the `shellcheck` and `marked` packages.
 
 - `sudo dnf install -y shellcheck`
 - `sudo dnf install -y marked`
