@@ -13,6 +13,8 @@
     - `dnf info <package name>`: View the spec file for a certain package. Detailed.
     - `dnf repoquery -l <package name>`: List the content of a package in the repos
     - `dnf repoquery --whatrequires <package name>`: "What packages in the repos depend on `<package name>`?
+- `rpmspec`
+    - `rpmspec -P <filename>.spec`: Parse (display) how the spec file would appear if queried.
 
 ## Tools Of The Trade
 There are some helpful packages you might want to install when you do packaging:
