@@ -21,6 +21,21 @@ dnf install emacs git ripgrep
 dnf install fd-find    # is 'fd' in Fedora <28
 ```
 
+At this point, you should be able to install Doom Emacs:
+
+```
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+```
+
+It's also a good idea to add `doom` to your $PATH also, that is, adding this snippet in your `~/.bashrc`
+
+```
+export PATH="$HOME/.emacs.d/bin:$PATH"
+```
+
+After adding the snippet, you will have to either source your `.bashrc` (like so: `source ~/.bashrc`) or re-login to be able to use the `doom` command or `emacs` with the `doom` goodies.
+
 `doom doctor` should tell you if everything is working properly. For me, I had to do couple of things:
 - `M-x nerd-icons-install-fonts`: Execute this inside Doom Emacs
 - `sudo dnf install gdouros-symbola-fonts`: `doom doctor` complained about not having the `symbola` theme. This is how you'd install it in Fedora (44)
