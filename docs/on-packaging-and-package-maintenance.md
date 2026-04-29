@@ -1,6 +1,16 @@
 # On packaging and package maintenance
 
-##  
+    == **Work-In-Progress** ==
+
+
+## Useful commands
+- `rpm`: For when you want to interact with local packages
+    - `rpm -q <package name>`: Query package files or installed packages
+    - `rpm -qi <package name>`: Detailed information of a package. It shows you the content of the `.spec` file for the package.
+    - `rpm -ql <package name>`: Tells you what files came with the package
+- `dnf`: When you want to interact with repos
+    - `dnf info <package name>`: View the spec file for a certain package. Detailed.
+    - `dnf repoquery -l <package name>`: List the content of a package in the repos
 
 ## Tools Of The Trade
 There are some helpful packages you might want to install when you do packaging:
@@ -16,6 +26,8 @@ There are some helpful packages you might want to install when you do packaging:
     - `sudo dnf install rpmdevtools`
 - `rpmautospec`:
     - `sudo dnf install rpmautospec`
+- `fedora-packager`: A set of tools to assist in the packaging process
+    - `sudo dnf install fedora-packager`
 
 `podman` is helpful too, you can spin up a minimal Fedora container if you need to test things, explore COPRs, etc.
 
@@ -35,3 +47,4 @@ There are some helpful packages you might want to install when you do packaging:
     - Also dry... it's about macros.
 - [Red Hat Blog | How to create a Linux RPM package](https://www.redhat.com/en/blog/create-rpm-package)
     - I found it helpful. Might be dated.
+- [Fedora Project Docs | Installing Packager Tools](https://docs.fedoraproject.org/en-US/package-maintainers/Installing_Packager_Tools/)
