@@ -1,0 +1,80 @@
+# Installing and using Doom Emacs
+
+Came across this some time ago... Thought I'd give it a shot.
+
+# Notes
+Emacs has this convention:
+- `M` is alt, 
+- `S` is shift and
+- `s` is super
+
+
+# Getting set up
+
+The guide in [the Doom Emacs repo](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org) is quite straightforward.
+
+First, you must install the dependencies for `doom` and actually get `emacs`:
+```
+# required dependencies
+dnf install emacs git ripgrep
+# optional dependencies
+dnf install fd-find    # is 'fd' in Fedora <28
+```
+
+`doom doctor` should tell you if everything is working properly. For me, I had to do couple of things:
+- `M-x nerd-icons-install-fonts`: Execute this inside Doom Emacs
+- `sudo dnf install gdouros-symbola-fonts`: `doom doctor` complained about not having the `symbola` theme. This is how you'd install it in Fedora (44)
+
+I also had two warnings:
+```
+  > Checking your enabled modules...
+    > :lang markdown
+      ! Couldn't find a markdown compiler, `markdown-preview' won't work
+    > :lang sh
+      ! Couldn't find shellcheck. Shell script linting will not work
+```
+
+To resolve them, you will have to install the `shellcheck` package and `marked` packages.
+
+- `sudo dnf install -y shellcheck`
+- `sudo dnf install -y marked`
+
+At this point, you should get something like this:
+
+```
+mboaisha@fedora44-buildbox:~$ doom doctor
+The doctor will see you now...
+
+> Checking your Emacs version...
+> Checking for Doom's prerequisites...
+> Checking for Emacs config conflicts...
+> Checking for missing Emacs features...
+> Checking for fonts...
+> Checking for private config conflicts...
+> Checking for common environmental issues...
+> Checking for stale elc files...
+> Checking for problematic git global settings...
+> Checking Doom Emacs...
+  ✓ Initialized Doom Emacs 2.1.0
+  ✓ Detected 33 modules
+  ✓ Detected 109 packages
+  > Checking Doom core for irregularities...
+    Found Symbols Nerd Font Mono
+  > Checking for stale elc files in your DOOMDIR...
+  > Checking your enabled modules...
+
+Everything seems fine, happy Emacs'ing!
+```
+
+## Using Doom Emacs
+
+    TODO
+
+## References
+- [GitHub | doomemacs/doomemacs: Getting Started, Fedora](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org#fedora)
+
+## TODOs
+- Add notes on how'd you install in an atomic Fedora
+    - Probably would need to use `brew`
+    - Maybe there is an easier / alternative way
+    - I suppose layering stuff is also an option...
