@@ -10,6 +10,7 @@ Even though I use [Obsidian](https://obsidian.md/) for notetaking and as a knowl
 - [Post-Install "Nice-to-haves"](docs/post-install-guide.md)
 - [COPRs of Interest](docs/coprs-of-interest.md): COPRs that I found interesting and could use in the future.
 - [On packaging and package maintenance](docs/on-packaging-and-package-maintenance.md)
+- [Installing and using Doom Emacs](docs/installing-and-using-doom-emacs.md)
 ## My devices
 
 In this repo, I will try my best to make the resources device-agnostic. To have an added context, I think it's best to add what devices are "in-scope" for these resources. 
