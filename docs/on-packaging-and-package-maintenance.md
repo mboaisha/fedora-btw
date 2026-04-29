@@ -8,9 +8,11 @@
     - `rpm -q <package name>`: Query package files or installed packages
     - `rpm -qi <package name>`: Detailed information of a package. It shows you the content of the `.spec` file for the package.
     - `rpm -ql <package name>`: Tells you what files came with the package
+    - `rpm -q --requires <package name>`: What packages on your system depend on `<package name>`?
 - `dnf`: When you want to interact with repos
     - `dnf info <package name>`: View the spec file for a certain package. Detailed.
     - `dnf repoquery -l <package name>`: List the content of a package in the repos
+    - `dnf repoquery --whatrequires <package name>`: "What packages in the repos depend on `<package name>`?
 
 ## Tools Of The Trade
 There are some helpful packages you might want to install when you do packaging:
