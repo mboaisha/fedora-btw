@@ -32,6 +32,8 @@ There are some helpful packages you might want to install when you do packaging:
     - `sudo dnf install rpmautospec`
 - `fedora-packager`: A set of tools to assist in the packaging process
     - `sudo dnf install fedora-packager`
+- `rpmspectool`: Tool that helps with dealing with RPM spec files
+    - `sudo dnf install rpmspectool`
 
 `podman` is helpful too, you can spin up a minimal Fedora container if you need to test things, explore COPRs, etc.
 
