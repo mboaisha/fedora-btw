@@ -16,9 +16,9 @@ The guide in [the Doom Emacs repo](https://github.com/doomemacs/doomemacs/blob/m
 First, you must install the dependencies for `doom` and actually get `emacs`:
 ```
 # required dependencies
-dnf install emacs git ripgrep
+sudo dnf install emacs git ripgrep
 # optional dependencies
-dnf install fd-find    # is 'fd' in Fedora <28
+sudo dnf install fd-find    # is 'fd' in Fedora <28
 ```
 
 At this point, you should be able to install Doom Emacs:
