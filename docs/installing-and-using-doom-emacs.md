@@ -92,4 +92,5 @@ Everything seems fine, happy Emacs'ing!
 - Add notes on how'd you install in an atomic Fedora
     - Probably would need to use `brew`
     - Maybe there is an easier / alternative way
+    - Maybe through `toolbox` / `distrobox` also
     - I suppose layering stuff is also an option...
