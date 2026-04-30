@@ -10,7 +10,7 @@
 
 **Note:** It's not recommended to do this, this is just a comfort / Quality-of-Life thing for me, especially if I am testing stuff in a VM. Always pick a strong password.
 
-## Configure, start and enable `sshd`
+## Install, configure, start, and enable `sshd`
 - I like to be able to `ssh` into all my machines.
     - Why? Remote management, remoting into machines from far away places, etc
 - Sometimes the `sshd` service is dead / disabled on fresh installs,as such, you will have to enable them.
@@ -18,9 +18,40 @@
 First order of business is to check the status of the `sshd` service: `sudo systemctl status sshd.service`
 
 ```
-# TODO: Output goes here
+[root@fedora-tester ~]# systemctl status sshd
+Unit sshd.service could not be found.
+```
+
+There are cases where you won't even have an `ssh` daemon running, in this case, you can install it like so:
 
 ```
+sudo dnf install -y sshd
+```
+
+Now let's try to see the status again...
+
+```
+[root@fedora-tester ~]# systemctl status sshd
+○ sshd.service - OpenSSH server daemon
+     Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; preset: enabled)
+    Drop-In: /usr/lib/systemd/system/service.d
+             └─10-timeout-abort.conf
+             /run/systemd/system/service.d
+             └─zzz-lxc-service.conf
+     Active: inactive (dead)
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+```
+
+It appears `sshd` (The ssh daemon) is running. In my case, it appears that upon installing the packakges, the `systemd` units were taken care of. To manually start and enable the service, you will have to do this:
+
+```
+systemctl enable --now sshd
+```
+
+This command should start and enable the service, meaning, you will have the `sshd` started automatically upon booting.
+
+From here, you can connect to your machine via `ssh`, you will just have to figure out the IP address: `ip addr show`
 
 ## `bootc` / Atomic Fedora specific stuff
 
