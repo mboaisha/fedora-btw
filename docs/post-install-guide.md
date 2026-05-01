@@ -53,6 +53,21 @@ This command should start and enable the service, meaning, you will have the `ss
 
 From here, you can connect to your machine via `ssh`, you will just have to figure out the IP address: `ip addr show`
 
+## Install packages
+
+Before you start installing packages, it's recommended you do an update: `sudo dnf update -y`
+
+There are couple of packages that I appreciate having in the system already:
+
+```
+sudo dnf install -y vim & \
+                    fastfetch & \
+                    htop      & \
+                    cmatrix   & \
+                    tailscale & \
+                    ncurses   & \ 
+```
+
 ## `bootc` / Atomic Fedora specific stuff
 
 If you are running an Atomic flavor of Fedora such as Fedora Silverblue and you had a successful installation with an operational OS, it's a good time (and idea) to [pin](https://docs.fedoraproject.org/en-US/atomic-desktops/updates-upgrades-rollbacks/#pinning-and-cleaning-deployments) the current image (Note: Fedora calls them *deployments*, I like to call them images.) before you do anything so you have a last stable image for you to rollback to.
