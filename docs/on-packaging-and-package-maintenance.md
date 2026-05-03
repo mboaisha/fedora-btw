@@ -8,6 +8,7 @@
     - `rpm -q <package name>`: Query package files or installed packages
     - `rpm -qi <package name>`: Detailed information of a package. It shows you the content of the `.spec` file for the package.
     - `rpm -ql <package name>`: Tells you what files came with the package
+      - Sometimes, you will want to query *uninstalled* pacakges, i.e. you have `xyz.rpm` and you want to view it's content: `rpm -qlp *.rpm`
     - `rpm -q --requires <package name>`: What packages on your system depend on `<package name>`?
     - `rpm --eval <macro>`: Evaluates macro expressions like `%{_libdir}` which should produce: `/usr/lib64`
 - `dnf`: When you want to interact with repos
@@ -35,6 +36,7 @@ There are some helpful packages you might want to install when you do packaging:
     - `sudo dnf install fedora-packager`
 - `rpmspectool`: Tool that helps with dealing with RPM spec files
     - `sudo dnf install rpmspectool`
+- `spectool`: 
 
 `podman` is helpful too, you can spin up a minimal Fedora container if you need to test things, explore COPRs, etc.
 
