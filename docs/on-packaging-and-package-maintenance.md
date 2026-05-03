@@ -40,6 +40,9 @@ There are some helpful packages you might want to install when you do packaging:
 
 `podman` is helpful too, you can spin up a minimal Fedora container if you need to test things, explore COPRs, etc.
 
+## The process (and loop)
+For now, we will assume that the end goal is to get [COPR](https://copr.fedorainfracloud.org/coprs/) to build the package after getting the `.spec` file from your GitHub repo. 
+
 ## Refernces and further reading
 
 - [YouTube | Fedora Project: RPM Packaging classroom](https://www.youtube.com/watch?v=woFtdIS6x0Q)
@@ -57,3 +60,7 @@ There are some helpful packages you might want to install when you do packaging:
 - [Red Hat Blog | How to create a Linux RPM package](https://www.redhat.com/en/blog/create-rpm-package)
     - I found it helpful. Might be dated.
 - [Fedora Project Docs | Installing Packager Tools](https://docs.fedoraproject.org/en-US/package-maintainers/Installing_Packager_Tools/)
+
+## TODOs, ideas and such
+- Expand on how to work with COPR webhooks
+- Explore how you can push the spec file to COPR from other git sites e.g. self-hosted Forgejo instance.
