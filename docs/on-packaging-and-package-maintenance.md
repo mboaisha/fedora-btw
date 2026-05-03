@@ -36,8 +36,8 @@ There are some helpful packages you might want to install when you do packaging:
     - `sudo dnf install fedora-packager`
 - `rpmspectool`: Tool that helps with dealing with RPM spec files
     - `sudo dnf install rpmspectool`
-- `spectool`: 
-
+- `spectool`: Another utility that allows you to get sources from a spec file
+    - `sudo dnf install rpmdevtools`
 `podman` is helpful too, you can spin up a minimal Fedora container if you need to test things, explore COPRs, etc.
 
 ## The process (and loop)
