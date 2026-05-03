@@ -1,6 +1,6 @@
 # On packaging and package maintenance
 
-    == **Work-In-Progress** ==
+> == **Work-In-Progress** ==
 
 
 ## Useful commands
@@ -9,6 +9,7 @@
     - `rpm -qi <package name>`: Detailed information of a package. It shows you the content of the `.spec` file for the package.
     - `rpm -ql <package name>`: Tells you what files came with the package
     - `rpm -q --requires <package name>`: What packages on your system depend on `<package name>`?
+    - `rpm --eval <macro>`: Evaluates macro expressions like `%{_libdir}` which should produce: `/usr/lib64`
 - `dnf`: When you want to interact with repos
     - `dnf info <package name>`: View the spec file for a certain package. Detailed.
     - `dnf repoquery -l <package name>`: List the content of a package in the repos
