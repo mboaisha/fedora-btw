@@ -60,7 +60,8 @@ For now, we will assume that the end goal is to get [COPR](https://copr.fedorain
 - [Red Hat Blog | How to create a Linux RPM package](https://www.redhat.com/en/blog/create-rpm-package)
     - I found it helpful. Might be dated.
 - [Fedora Project Docs | Installing Packager Tools](https://docs.fedoraproject.org/en-US/package-maintainers/Installing_Packager_Tools/)
-
+- [Fedora Project Docs: Packaging Guidelines, Versioning](https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/)
+  - Projects that have no explicit version are treated in a special way
 ## TODOs, ideas and such
 - Expand on how to work with COPR webhooks
 - Explore how you can push the spec file to COPR from other git sites e.g. self-hosted Forgejo instance.
