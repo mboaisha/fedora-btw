@@ -11,6 +11,8 @@ Emacs has this convention:
 
 # Getting set up
 
+## Non-Atomic Fedora
+
 The guide in [the Doom Emacs repo](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org) is quite straightforward.
 
 First, you must install the dependencies for `doom` and actually get `emacs`:
@@ -80,17 +82,33 @@ The doctor will see you now...
 
 Everything seems fine, happy Emacs'ing!
 ```
+## Atomic Fedora
+In some cases, you may have either [Toolbx / Toolbox](https://github.com/containers/toolbox) or [Distrobox](https://docs.bazzite.gg/Installing_and_Managing_Software/Distrobox/)
 
-## Using Doom Emacs
+For Distrobox, the first step is to create the container:
+
+```
+distrobox create doomEmacs
+```
+
+And then, you enter it:
+
+```
+distrobox enter
+```
+
+From here, you can follow the non-Atomic Fedora installation guide. If youare having any issues, check if you have the dependency packages already e.g. Already have `emacs` from Homebrew
+
+# Using Doom Emacs
 
     TODO
 
-## References
+# References
 - [GitHub | doomemacs/doomemacs: Getting Started, Fedora](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org#fedora)
 
-## TODOs
+# TODOs
 - Add notes on how'd you install in an atomic Fedora
     - Probably would need to use `brew`
     - Maybe there is an easier / alternative way
-    - Maybe through `toolbox` / `distrobox` also
+    - ~~Maybe through `toolbox` / `distrobox` also~~
     - I suppose layering stuff is also an option...
