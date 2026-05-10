@@ -26,7 +26,7 @@ There are some helpful packages you might want to install when you do packaging:
     - `sudo dnf install git`
 - `rpmbuild`:
     - `sudo dnf install rpmbuild`
-- `rpmlint`:
+- `rpmlint`: Does some common checks for RPM packages.
     - `sudo dnf install rpmlint`
 - `rpmdevtools`:
     - `sudo dnf install rpmdevtools`
