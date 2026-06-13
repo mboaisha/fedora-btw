@@ -45,3 +45,6 @@ sudo dnf install chezmoi -y
 ```
 
 WIP
+
+## Tips and Tricks
+- For stuff like `roost` where you have to build the package manually or there are no packages available in the official Fedora repos, you can use `distrobox` to get the package. This is especially helpful in cases where you are applying the dotfiles to an atomic flavor or bootc image.
