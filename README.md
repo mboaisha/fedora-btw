@@ -12,7 +12,7 @@ Even though I use [Obsidian](https://obsidian.md/) for notetaking and as a knowl
 - [On packaging and package maintenance](docs/on-packaging-and-package-maintenance.md)
 - [Installing and using Doom Emacs](docs/installing-and-using-doom-emacs.md)
 - RHCSA 10 Studies
-- Using `chezmoi` 
+- [On managing dotfiles](docs/on-managing-dotfiles.md)
 ## My devices
 
 In this repo, I will try my best to make the resources device-agnostic. To have an added context, I think it's best to add what devices are "in-scope" for these resources. 
