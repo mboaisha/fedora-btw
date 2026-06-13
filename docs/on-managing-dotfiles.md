@@ -5,9 +5,11 @@ I have been looking for a way to manage my dotfiles. There are many options to d
 - [chezmoi](https://github.com/twpayne/chezmoi)
 - [roost](https://github.com/mt-22/roost/tree/main)
 
+It's essentially "configurations-as-code" sort of deal.
+
 ## What about secrets?
 
-There are things you must __never__ commit to a public (or private) git repositories, including but not limited to:
+There are things you must __never__ commit to public (or private) git repositories, including but not limited to:
 - Credentials
 - Private ssh keys
 
