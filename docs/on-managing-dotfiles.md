@@ -38,4 +38,10 @@ WIP
 
 ## Setting up and using `chezmoi`
 
+Install `chezmoi`
+
+```
+sudo dnf install chezmoi -y
+```
+
 WIP
