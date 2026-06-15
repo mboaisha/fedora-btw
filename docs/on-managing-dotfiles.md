@@ -8,6 +8,17 @@ I have been looking for a way to manage my dotfiles. There are many options to d
 
 It's essentially "configurations-as-code" sort of deal.
 
+
+## What things do you want to manage?
+- It differs from person to person.
+- Avoid insecurely committing secrets public, more on that later.
+
+Typically, you want to sync stuff such as:
+- Window manager / desktop environment configs
+    - Example: `~/.config/sway/config`
+- Terminal emulator settings
+    - Example: `~/.config/alacritty/alacritty.toml`
+
 ## What about secrets?
 
 There are things you must __never__ commit to public (or private) git repositories, including but not limited to:
