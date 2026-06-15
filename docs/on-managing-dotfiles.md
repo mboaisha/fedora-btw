@@ -18,16 +18,22 @@ Each "dotfile management" solution has a different ways of handling this sort of
 
 WIP
 
-## Setting up and using `stow`
-
-WIP
-
 ## Setting up and using `chezmoi`
 
 Install `chezmoi`
 
 ```
 sudo dnf install chezmoi -y
+```
+
+WIP
+
+## Setting up and using `stow`
+
+Install `stow`
+
+```
+sudo dnf install stow -y
 ```
 
 WIP
