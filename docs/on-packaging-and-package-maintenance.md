@@ -62,6 +62,8 @@ For now, we will assume that the end goal is to get [COPR](https://copr.fedorain
 - [Fedora Project Docs | Installing Packager Tools](https://docs.fedoraproject.org/en-US/package-maintainers/Installing_Packager_Tools/)
 - [Fedora Project Docs: Packaging Guidelines, Versioning](https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/)
   - Projects that have no explicit version are treated in a special way
+- [Software-Building-HOWTO](https://tldp.org/HOWTO/Software-Building-HOWTO.html)
+  - Ancient guide on building and installing software. The principles still hold.
 - [Youtube | Chase Lambert: Beginner Makefile Tutorial](https://www.youtube.com/watch?v=zeEMISsjO38)
   - Short and sweet tutorial on `Makefile`
 ## TODOs, ideas and such
