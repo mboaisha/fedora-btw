@@ -12,6 +12,7 @@ Even though I use [Obsidian](https://obsidian.md/) for notetaking and as a knowl
 - [On packaging and package maintenance](docs/on-packaging-and-package-maintenance.md)
 - [Installing and using Doom Emacs](docs/installing-and-using-doom-emacs.md)
 - RHCSA 10 Studies
+- Using Nix Package Manager with Fedora
 - [On managing dotfiles](docs/on-managing-dotfiles.md)
 ## My devices
 
