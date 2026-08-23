@@ -71,6 +71,7 @@ For now, we will assume that the end goal is to get [COPR](https://copr.fedorain
   - Ancient guide on building and installing software. The principles still hold.
 - [Youtube | Chase Lambert: Beginner Makefile Tutorial](https://www.youtube.com/watch?v=zeEMISsjO38)
   - Short and sweet tutorial on `Makefile`
+- [Fedora Developer Docs | Copr Build Service - Copr command line interface](https://developer.fedoraproject.org/deployment/copr/copr-cli.html)
 ## TODOs, ideas and such
 - Expand on how to work with COPR webhooks
 - Explore how you can push the spec file to COPR from other git sites e.g. self-hosted Forgejo instance.
