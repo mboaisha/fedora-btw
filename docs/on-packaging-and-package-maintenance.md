@@ -17,6 +17,8 @@
     - `dnf repoquery --whatrequires <package name>`: "What packages in the repos depend on `<package name>`?
 - `rpmspec`
     - `rpmspec -P <filename>.spec`: Parse (display) how the spec file would appear if queried.
+- `copr-cli`
+    - `copr-cli watch-build <build id>`: Watch the build process live.
 
 ## Tools Of The Trade
 There are some helpful packages you might want to install when you do packaging:
@@ -38,6 +40,9 @@ There are some helpful packages you might want to install when you do packaging:
     - `sudo dnf install rpmspectool`
 - `spectool`: Another utility that allows you to get sources from a spec file
     - `sudo dnf install rpmdevtools`
+- `copr-cli`: A command line interface that helps with interacting with the COPR service
+    `sudo dnf install copr-cli`
+
 `podman` is helpful too, you can spin up a minimal Fedora container if you need to test things, explore COPRs, etc.
 
 ## The process (and loop)
