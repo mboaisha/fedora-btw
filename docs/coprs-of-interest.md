@@ -11,10 +11,12 @@ Further reading: [COPR FAQ](https://docs.copr.fedorainfracloud.org/user_document
 You enable them then install whatever package you need from them, example:
 
 ```
-sudo dnf enable swayfx/swayfx
+sudo dnf copr enable swayfx/swayfx
 
 sudo dnf install -y swayfx
 ```
+
+Here, [swayfx](https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/)'s COPR is enabled then installed.
 
 ## List
 - [swayfx/swayfx](https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/): For the [Sway fork](https://github.com/WillPower3309/swayfx)

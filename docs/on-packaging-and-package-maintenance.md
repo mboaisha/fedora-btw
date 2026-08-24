@@ -46,7 +46,7 @@ There are some helpful packages you might want to install when you do packaging:
 `podman` is helpful too, you can spin up a minimal Fedora container if you need to test things, explore COPRs, etc.
 
 ## The process (and loop)
-For now, we will assume that the end goal is to get [COPR](https://copr.fedorainfracloud.org/coprs/) to build the package after getting the `.spec` file from your GitHub repo. 
+For now, we will assume that the end goal is to get [COPR](https://copr.fedorainfracloud.org/coprs/) to build the package after getting the `.spec` file from your GitHub repo.
 
 ## Refernces and further reading
 
