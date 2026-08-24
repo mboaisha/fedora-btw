@@ -4,10 +4,12 @@ Came across this some time ago... Thought I'd give it a shot.
 
 # Notes
 Emacs has this convention:
-- `M` is alt, 
-- `S` is shift and
-- `s` is super
+- `M-` is alt
+- `S-` is shift
+- `s-` is super (AKA Windows key, Command key)
+- `C-` is Control
 
+For example, when you see `C-x C-s` (Save) it means press Control + x followed by Control + s
 
 # Getting set up
 
