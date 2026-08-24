@@ -97,7 +97,7 @@ And then, you enter it:
 distrobox enter
 ```
 
-From here, you can follow the non-Atomic Fedora installation guide. If youare having any issues, check if you have the dependency packages already e.g. Already have `emacs` from Homebrew
+From here, you can follow the non-Atomic Fedora installation guide. If you are having any issues, check if you have the dependency packages already e.g. Already have `emacs` from Homebrew
 
 # Using Doom Emacs
 
