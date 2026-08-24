@@ -2,6 +2,8 @@
 
 > AKA, what I usually do after a fresh install
 
+It is assumed that you have a fresh install of Fedora (44) Workstation, instructions and guide *should* work for Fedora KDE Plasma Desktop and other spins.
+
 ## Password change
 - Anaconda, the OS installer always crashes for me when I put my usual password because it's "too weak"
 - To fix that, I usually do `00<my password>00` to proceed in the installation process.
