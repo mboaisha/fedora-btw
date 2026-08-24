@@ -19,8 +19,9 @@ sudo dnf install -y swayfx
 ## List
 - [swayfx/swayfx](https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/): For the [Sway fork](https://github.com/WillPower3309/swayfx)
 - [faugus/faugus-launcher](https://github.com/Faugus/faugus-launcher): Game launcher. Also available as a [flatpak](https://flathub.org/en/apps/io.github.Faugus.faugus-launcher)
-- [solopasha/hyprland](https://copr.fedorainfracloud.org/coprs/solopasha/hyprland): All things hyprland you could possibly need.~~
-  - [lionheartp](https://copr.fedorainfracloud.org/coprs/lionheartp/Hyprland/): More maintained repo
+- ~~[solopasha/hyprland](https://copr.fedorainfracloud.org/coprs/solopasha/hyprland): All things hyprland you could possibly need.~~
+  - [lionheartp/Hyprland](https://copr.fedorainfracloud.org/coprs/lionheartp/Hyprland/): More maintained repo
+  - [craftidore/wayblueorg-hyprland](https://copr.fedorainfracloud.org/coprs/craftidore/wayblueorg-hyprland/): Shameless plug to the Hyprland COPR maintained for the [Wayblue](https://github.com/wayblueorg/wayblue) image.
 - [avengemedia/dms](https://copr.fedorainfracloud.org/coprs/avengemedia/dms/): Dank Material Shell, stable branch
 - [avengemedia/dms-git](https://copr.fedorainfracloud.org/coprs/avengemedia/dms-git/): Dank Material Shell, Development branch
 - [codifryed/CoolerControl](https://copr.fedorainfracloud.org/coprs/codifryed/CoolerControl/): For [CoolerControl](https://docs.coolercontrol.org/)
