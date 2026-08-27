@@ -35,7 +35,7 @@ git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 It's also a good idea to add `doom` to your $PATH also, that is, adding this snippet in your `~/.bashrc`
 
 ```
-export PATH="$HOME/.emacs.d/bin:$PATH"
+export PATH="$HOME/.config/emacs/bin:$PATH"
 ```
 
 After adding the snippet, you will have to either source your `.bashrc` (like so: `source ~/.bashrc`) or re-login to be able to use the `doom` command or `emacs` with the `doom` goodies.
