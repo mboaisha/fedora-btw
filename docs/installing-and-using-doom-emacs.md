@@ -40,6 +40,13 @@ export PATH="$HOME/.config/emacs/bin:$PATH"
 
 After adding the snippet, you will have to either source your `.bashrc` (like so: `source ~/.bashrc`) or re-login to be able to use the `doom` command or `emacs` with the `doom` goodies.
 
+You can verify more by going:
+
+```
+command -v doom
+ls ~/.config/emacs/bin
+```
+
 `doom doctor` should tell you if everything is working properly. For me, I had to do couple of things:
 - `M-x nerd-icons-install-fonts`: Execute this inside Doom Emacs
 - `sudo dnf install gdouros-symbola-fonts`: `doom doctor` complained about not having the `symbola` theme. This is how you'd install it in Fedora (44)
